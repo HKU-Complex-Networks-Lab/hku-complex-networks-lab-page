@@ -17,7 +17,7 @@ export default function NewsPage() {
         {
             title: "New Software Package Released",
             date: "2024-11-14",
-            summary: "Our lab has released Paninipy, a new Python package for analyzing multilayer networks. The open-source tool provides implementations of novel algorithms developed in our research.",
+            summary: "Our lab has released Paninipy, a new Python package collecting a number of recent works on nonparametric inference for unsupervised learning with network data. This open-source tool provides implementations of novel algorithms developed in our research.",
             slug: "paninipy-release"
         }
     ];
