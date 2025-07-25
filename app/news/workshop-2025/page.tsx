@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'HKU IDS Interdisciplinary Workshop: Understanding Complex Networks',
-    description: 'A two-day workshop on Complex Networks at HKU bringing together researchers and practitioners from interdisciplinary studies.',
+    title: 'HKU IDS Interdisciplinary Workshop: Understanding Complex Networks for Advancing Fundamental Data Science',
+    description: 'Two-day workshop at HKU bringing together researchers working at the frontiers of network theory and interdisciplinary applications of networks.',
 }
 
 interface Speaker {
@@ -22,7 +22,7 @@ interface ScheduleItem {
 export default function Workshop2025Page() {
     const keynoteSpeakers = [
         {
-            name: "Guanrong (Ron) Chen",
+            name: "Guanrong Chen",
             affiliation: "City University of Hong Kong",
             email: "eegchen@cityu.edu.hk",
             bio: "Professor Chen received his master's degree in computer science from Sun Yat-sen University at Guangzhou in 1981 and his Ph.D. in applied mathematics from Texas A&M University in 1987. Since 2000, he has been a Chair Professor at the City University of Hong Kong. Professor Chen was elected Fellow of the IEEE in 1997 and Fellow of the Network Science Society in 2025. He was awarded the second prize of the National Natural Science Award in 2008, 2012 and 2016, respectively. In 2011, he was conferred an honorary doctorate by St. Petersburg State University and awarded the Euler Gold Medal by the Euler Foundation in Russia. In 2014, he was conferred an honorary doctorate by the University of Normandy France and was elected Member of the European Academy of Sciences. In 2015, he was elected Member of the European Academy of Engineering and Fellow of The World Academy of Sciences.",
@@ -142,7 +142,7 @@ export default function Workshop2025Page() {
         {
             time: "09:35 – 10:35",
             session: "Keynote 1",
-            speaker: "Guanrong (Ron) Chen",
+            speaker: "Guanrong Chen",
             affiliation: "City University of Hong Kong"
         },
         {
