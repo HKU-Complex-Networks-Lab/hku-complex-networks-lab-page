@@ -296,7 +296,7 @@ export default function Workshop2025Page() {
                         "The next century will be the century of complexity.” - Stephen Hawking
                     </p>
                     <p className="mb-4">
-                        The Complex Networks Lab at the University of Hong Kong is proud to host this interdisciplinary workshop that brings together leading researchers and practitioners in the field of complex networks. This two-day event aims to foster collaboration and knowledge exchange across disciplines, from theoretical foundations to practical applications.
+                        The HKU Complex Networks Lab is proud to host this two-day interdisciplinary workshop at the University of Hong Kong to bring together researchers working at the frontiers of network theory and interdisciplinary applications of networks.
                     </p>
                     <p className="mb-4">
                         Network science has emerged as a powerful framework for understanding complex systems across diverse domains including social sciences, biology, transportation, and information systems. This workshop will explore cutting-edge research in network theory, computational methods, and real-world applications.
@@ -320,7 +320,7 @@ export default function Workshop2025Page() {
                         </div>
                         <div>
                             <h3 className="font-semibold text-lg mb-2">Venue</h3>
-                            <p className="text-gray-700">Centennial campus</p>
+                            <p className="text-gray-700">CPD 2.58, Centennial Campus</p>
                             <p className="text-gray-700">The University of Hong Kong</p>
                             <p className="text-gray-700">Pokfulam, Hong Kong</p>
                         </div>
