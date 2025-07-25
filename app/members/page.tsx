@@ -14,8 +14,8 @@ export default function MembersPage() {
             <h2 className="text-xl font-medium mb-6">Faculty</h2>
             <MemberCard 
                 name="Prof. Alec Kirkley"
-                position="Principal Investigator, Associate Professor"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                position="Assistant Professor, HKU Institute of Data Science and Department of Urban Planning & Design"
+                interests={["Network Science", "Statistical Physics", "Complex Systems", "Statistical Inference", "Urban Science"]}
                 photo="/images/alec-kirkley.jpg"
                 links={[
                     {type: "personal", url: "https://aleckirkley.com/"},
@@ -28,7 +28,7 @@ export default function MembersPage() {
             <MemberCard 
                 name="Dr. Seongmin Kim"
                 position="Postdoctoral Fellow"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                interests={["TBD"]}
                 photo="/images/seongmin-kim.jpg"
                 links={[
                     {type: "personal", url: ""},
@@ -41,7 +41,7 @@ export default function MembersPage() {
             <MemberCard 
                 name="Baiyue He"
                 position="PhD Student"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                interests={["TBD"]}
                 photo="/images/baiyue-he.jpg"
                 links={[
                     {type: "github", url: "https://github.com/baiyueh"}
@@ -51,7 +51,7 @@ export default function MembersPage() {
             <MemberCard 
                 name="Ya Wen"
                 position="PhD Candidate"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                interests={["TBD"]}
                 photo="/images/ya-wen.jpg"
                 links={[
                     {type: "personal", url: ""},
@@ -62,8 +62,8 @@ export default function MembersPage() {
 
             <MemberCard 
                 name="Jiayu Weng"
-                position="PhD Student (Hong Kong PhD Fellowship recipient)"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                position="PhD Student"
+                interests={["TBD"]}
                 photo="/images/jiayu-weng.jpg"
                 links={[
                     {type: "personal", url: ""},
@@ -75,7 +75,7 @@ export default function MembersPage() {
             <MemberCard 
                 name="Yanting Zhang"
                 position="PhD Student"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                interests={["TBD"]}
                 photo="/images/yanting-zhang.jpg"
                 links={[
                     {type: "personal", url: ""},
@@ -88,7 +88,7 @@ export default function MembersPage() {
             <MemberCard 
                 name="Jianrui Wu"
                 position="MPhil Student"
-                interests={["Network Science", "Complex Systems", "Data Science"]}
+                interests={["TBD"]}
                 photo="/images/jianrui-wu.jpg"
                 links={[
                     {type: "personal", url: ""},
