@@ -97,23 +97,23 @@ export default function MembersPage() {
                 ]}
             />
         </section>
-
-        <section>
-            <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Former Lab Members</h1>
+        
+        // <section>
+        //     <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Former Lab Members</h1>
             
-            <h2 className="text-xl font-medium mb-6">Faculty</h2>
-            <MemberCard 
-                name="Dr. Sebastian Morel-Balbi"
-                position="Postdoctoral Fellow"
-                interests={["Network Science", "Statistical Physics", "Complex Systems", "Statistical Inference"]}
-                photo="/images/alec-kirkley.jpg"
-                links={[
-                    {type: "personal", url: },
-                    {type: "scholar", url: },
-                    {type: "github", url: }
-                ]}
-            />
-         </section>
+        //     <h2 className="text-xl font-medium mb-6">Faculty</h2>
+        //     <MemberCard 
+        //         name="Dr. Sebastian Morel-Balbi"
+        //         position="Postdoctoral Fellow"
+        //         interests={["Network Science", "Statistical Physics", "Complex Systems", "Statistical Inference"]}
+        //         photo="/images/alec-kirkley.jpg"
+        //         links={[
+        //             {type: "personal", url: },
+        //             {type: "scholar", url: },
+        //             {type: "github", url: }
+        //         ]}
+        //     />
+        //  </section>
 
 
         
