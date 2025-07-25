@@ -16,6 +16,20 @@ export default function PublicationsPage() {
             url: "https://arxiv.org/abs/2501.02505",
         },
         {
+            title: "HINA: A Learning Analytics Tool for Heterogenous Interaction Network Analysis in Python",
+            authors: "S. Feng, B. He, and A. Kirkley",
+            venue: "Journal of Open Source Software",
+            year: 2025,
+            url: "https://joss.theoj.org/papers/10.21105/joss.08299",
+        },
+        {
+            title: "PANINIpy: Package of Algorithms for Nonparametric Inference with Networks In Python",
+            authors: "A. Kirkley and B. He",
+            venue: "Journal of Open Source Software",
+            year: 2024,
+            url: "https://joss.theoj.org/papers/10.21105/joss.07312",
+        },
+        {
             title: "Bayesian regionalization of urban mobility networks",
             authors: "S. Morel-Balbi and A. Kirkley",
             venue: "Physical Review Research",
