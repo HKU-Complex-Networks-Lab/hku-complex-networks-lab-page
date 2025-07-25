@@ -52,7 +52,6 @@ export default function PublicationsPage() {
                         venue={pub.venue}
                         year={pub.year}
                         url={pub.url}
-                        focus={pub.focus}
                     />
                 ))}
             </div>
