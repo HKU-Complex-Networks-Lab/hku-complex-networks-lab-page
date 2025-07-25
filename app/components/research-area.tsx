@@ -24,6 +24,11 @@ export function ResearchArea({ title, description, image }: ResearchAreaProps) {
                         />
                     </div>
                 )}
+                <div className={image ? "md:w-2/3" : "w-full"}>
+                    <p className="mb-4 text-neutral-800 dark:text-neutral-200">
+                        {description}
+                    </p>
+                </div>
             </div>
         </div>
     )

@@ -284,9 +284,12 @@ export default function Workshop2025Page() {
 
     return (
         <section>
-            <h1 className="font-semibold text-3xl mb-8 tracking-tighter">
+            <h1 className="font-semibold text-3xl mb-4 tracking-tighter">
                 HKU IDS Interdisciplinary Workshop: Understanding Complex Networks for Advancing Fundamental Data Science
             </h1>
+            <p className="text-sm text-neutral-700 dark:text-neutral-300 mb-4">
+                Organizer: Prof Alec Kirkley, Musketeers Foundation Institute of Data Science, The University of Hong Kong
+            </p>
             
             {/* Workshop Introduction */}
             <div className="mb-12">
@@ -315,12 +318,21 @@ export default function Workshop2025Page() {
                         <div>
                             <h3 className="font-semibold text-lg mb-2">Date</h3>
                             <p className="text-gray-700">August 28-29, 2025</p>
-                            <p className="text-gray-700">9:00 AM - 4:30 PM (Day 1)</p>
-                            <p className="text-gray-700">9:00 AM - 4:30 PM (Day 2)</p>
+                            <p className="text-gray-700">9:30 AM - 4:00 PM (Day 1)</p>
+                            <p className="text-gray-700">9:30 AM - 4:00 PM (Day 2)</p>
                         </div>
                         <div>
                             <h3 className="font-semibold text-lg mb-2">Venue</h3>
-                            <p className="text-gray-700">CPD 2.58, Centennial Campus</p>
+                            <p className="text-gray-700">
+                                <a 
+                                    href="https://its.hku.hk/teaching-space/cpd-2-58/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-600 hover:text-blue-800"
+                                >
+                                    CPD 2.58, Centennial Campus
+                                </a>
+                            </p>
                             <p className="text-gray-700">The University of Hong Kong</p>
                             <p className="text-gray-700">Pokfulam, Hong Kong</p>
                         </div>
@@ -491,7 +503,7 @@ export default function Workshop2025Page() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
                     <a 
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd6WuEQKFDYjNgMwRRqZTGt31htcHhUNoXmAxHWsXj8KDkurA/viewform?usp=header"
+                        href="https://hku.au1.qualtrics.com/jfe/form/SV_dmAy5W4cWiLAHIy"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200"

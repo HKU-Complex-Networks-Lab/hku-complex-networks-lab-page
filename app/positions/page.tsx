@@ -39,7 +39,16 @@ export default function PositionsPage() {
             <div className="border p-6 rounded-lg mb-8 bg-neutral-50 dark:bg-neutral-900">
                 <h2 className="font-semibold text-xl mb-2">PhD Student Positions</h2>
                 <p className="mb-4 text-neutral-800 dark:text-neutral-200">
-                    We have openings for PhD students interested in complex networks research. PhD applicants may also be interested in checking out the Hong Kong PhD Fellowship Scheme (https://cerg1.ugc.edu.hk/hkpfs/index.html), which provides an excellent stipend and support for PhD studies in Hong Kong.
+                    We have openings for PhD students interested in complex networks research. PhD applicants may also be interested in checking out the{' '}
+                    <a 
+                        href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 hover:underline"
+                    >
+                        Hong Kong PhD Fellowship Scheme
+                    </a>
+                    , which provides an excellent stipend and support for PhD studies in Hong Kong.
                 </p>
                 <h3 className="font-medium mb-1">Research Areas:</h3>
                 <ul className="list-disc pl-6 mb-4 text-neutral-700 dark:text-neutral-300">
