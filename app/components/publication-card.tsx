@@ -7,10 +7,9 @@ interface PublicationCardProps {
     venue: string;
     year: number;
     url: string;
-    focus: string;
 }
 
-export function PublicationCard({ title, authors, venue, year, url, focus }: PublicationCardProps) {
+export function PublicationCard({ title, authors, venue, year, url }: PublicationCardProps) {
     return (
         <div className="mb-6 pb-6 border-b border-neutral-200 dark:border-neutral-800">
             <Link 
@@ -27,11 +26,6 @@ export function PublicationCard({ title, authors, venue, year, url, focus }: Pub
             <p className="text-neutral-600 dark:text-neutral-400 text-sm mt-1">
                 {venue}, {year}
             </p>
-            <div className="mt-2">
-                <span className="inline-block px-2 py-1 text-xs bg-neutral-100 dark:bg-neutral-800 rounded-md">
-                    {focus}
-                </span>
-            </div>
         </div>
     )
 }
