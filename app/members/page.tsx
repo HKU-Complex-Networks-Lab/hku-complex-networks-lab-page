@@ -96,6 +96,20 @@ export default function MembersPage() {
                     {type: "github", url: ""}
                 ]}
             />
+            
+            <h2 className="text-xl font-medium mb-6 mt-12">Former Lab Members</h2>
+            <MemberCard 
+                name="Sebastian Morel-Balbi"
+                position="Postdoctoral Fellow"
+                interests={["Statistical Physics","Complex Systems","Network Science"]}
+                photo="/images/sebastian-morel.jpg"
+                links={[
+                    {type: "personal", url: ""},
+                    {type: "scholar", url: ""},
+                    {type: "github", url: ""}
+                ]}
+            />
+            
         </section>
         
         // <section>
