@@ -2,7 +2,7 @@
 import { PublicationCard } from '../components/publication-card'
 
 export const metadata = {
-    title: 'Publications',
+    title: 'Research publications from junior members of the HKU Complex Networks Lab',
     description: 'Research publications from junior members of the HKU Complex Networks Lab.',
 }
 
