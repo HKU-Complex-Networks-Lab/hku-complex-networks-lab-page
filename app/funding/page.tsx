@@ -18,29 +18,25 @@ export default function FundingPage() {
             <h2 className="text-xl font-medium mb-6">Current Grants as PI</h2>
             
             <FundingItem 
-                title="General Research Fund (GRF)"
-                projectnum="17300225"
-                source="Hong Kong Research Grants Council"
+                title="General Research Fund (GRF), Project No. 17300225"
+                source="Hong Kong Research Grants Council (RGC)"
                 period="2026-2028"
             />
             
             <FundingItem 
-                title="Young Scientist Fund"
-                projectnum="12405044"
-                source="National Science Foundation of China"
+                title="Young Scientist Fund, Project No. 12405044"
+                source="National Science Foundation of China (NSFC)"
                 period="2025-2027"
             />
             
             <FundingItem 
-                title="General Research Fund (GRF)"
-                projectnum="17301024"
-                source="Hong Kong Research Grants Council"
+                title="General Research Fund (GRF), Project No. 17301024"
+                source="Hong Kong Research Grants Council (RGC)"
                 period="2025-2027"
             />
             
             <FundingItem 
-                title="Early Career Scheme (ECS)"
-                projectnum="27302523"
+                title="Early Career Scheme (ECS), Project No. 27302523"
                 source="Hong Kong Research Grants Council"
                 period="2024-2026"
             />
