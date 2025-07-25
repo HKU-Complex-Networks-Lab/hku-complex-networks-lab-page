@@ -8,7 +8,7 @@ interface ResearchAreaProps {
     image?: string;
 }
 
-export function ResearchArea({ title, description, image, papers }: ResearchAreaProps) {
+export function ResearchArea({ title, description, image }: ResearchAreaProps) {
     return (
         <div className="mb-12">
             <h2 className="font-semibold text-xl mb-4 tracking-tight">{title}</h2>
