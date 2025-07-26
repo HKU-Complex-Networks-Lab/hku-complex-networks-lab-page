@@ -54,14 +54,14 @@ export default function Workshop2025Page() {
             name: "George Cantwell",
             affiliation: "University of Cambridge",
             email: "gtc31@cam.ac.uk",
-            bio: "",
+            bio: "George Cantwell is an Assistant Professor of Innovative Computational Methods at the University of Cambridge. He received a PhD in Physics from the University of Michigan and then completed a postdoctoral fellowship at the Santa Fe Institute. A physicist by training, He now researches in the areas of network science, complex systems, and statistical inference.",
             profilePic: "/images/speakers/george-cantwell.jpg"
         },
         {
             name: "Hao Liao",
             affiliation: "Shenzhen University",
             email: "liaohao@szdx.wecom.work",
-            bio: "",
+            bio: "Hao Liao, is an Associate Professor and Ph.D. supervisor. He received his Ph.D. in Philosophy from the University of Fribourg, Switzerland, in May 2015, following a Master’s degree from the University of Science and Technology of China. His primary research interests lie in social computing and complex systems, with a particular focus on large model applications (including LLM-based agents and recommendation systems), anomaly detection in social networks (e.g., misinformation and fake news), and the fundamental theory and applications of complex networks.",
             profilePic: "/images/speakers/hao-liao.jpg"
         },
         {
@@ -75,7 +75,7 @@ export default function Workshop2025Page() {
             name: "Xiang Li",
             affiliation: "Fudan University",
             email: "lix@fudan.edu.cn",
-            bio: "",
+            bio: "Professor Li serves as the Chair of the Technical Committee on Complex Networks and Complex Systems under the China Society for Industrial and Applied Mathematics, Vice Chair of the Network Science and Engineering Committee under the Chinese Institute of Command and Control, and a Committee Member of the Control Theory Committee under the Chinese Association of Automation. He is also Vice President of the Shanghai Nonlinear Science Society.",
             profilePic: "/images/speakers/xiang-li.jpg"
         },
         {
@@ -113,7 +113,7 @@ export default function Workshop2025Page() {
             name: "Shihui Feng",
             affiliation: "University of Hong Kong",
             email: "shihuife@hku.hk",
-            bio: "Assistant Professor",
+            bio: "Shihui Feng is an Assistant Professor and the Programme Director of Bachelor of Arts and Sciences in Social Data Science at the Faculty of Education, the University of Hong Kong. Her research focuses on learning analytics and complex networks.",
             profilePic: "/images/speakers/shihui-feng.jpg"
         },
         {
@@ -340,7 +340,7 @@ export default function Workshop2025Page() {
                 </div>
             </div>
 
-			{/* Speakers */}
+            {/* Speakers */}
             <div className="mb-12">
                 <h2 className="font-semibold text-2xl mb-6 tracking-tighter">Speakers</h2>
                 
@@ -351,11 +351,13 @@ export default function Workshop2025Page() {
                         {keynoteSpeakers.map((speaker, index) => (
                             <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
                                 <div className="flex flex-col items-center">
-                                    <img 
-                                        src={speaker.profilePic} 
-                                        alt={speaker.name}
-                                        className="w-48 h-48 object-contain rounded-full bg-white mb-4"
-                                    />
+                                    <div className="w-35 h-48 mb-4 rounded-full overflow-hidden bg-white border border-gray-200">
+                                        <img 
+                                            src={speaker.profilePic} 
+                                            alt={speaker.name}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
                                     <h4 className="font-semibold text-lg mb-2 text-center">{speaker.name}</h4>
                                     <p className="text-blue-600 font-medium mb-3 text-sm text-center">{speaker.affiliation}</p>
                                     <p className="text-gray-700 text-xs mb-3 leading-relaxed text-left">{speaker.bio}</p>
@@ -378,11 +380,13 @@ export default function Workshop2025Page() {
                         {invitedSpeakers.map((speaker, index) => (
                             <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
                                 <div className="flex flex-col items-center">
-                                    <img 
-                                        src={speaker.profilePic} 
-                                        alt={speaker.name}
-                                        className="w-48 h-48 object-contain rounded-full bg-white mb-4"
-                                    />
+                                    <div className="w-35 h-48 mb-4 rounded-full overflow-hidden bg-white border border-gray-200">
+                                        <img 
+                                            src={speaker.profilePic} 
+                                            alt={speaker.name}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
                                     <h4 className="font-semibold text-lg mb-2 text-center">{speaker.name}</h4>
                                     <p className="text-blue-600 font-medium mb-3 text-sm text-center">{speaker.affiliation}</p>
                                     <p className="text-gray-700 text-xs mb-3 leading-relaxed text-left">{speaker.bio}</p>
@@ -405,11 +409,13 @@ export default function Workshop2025Page() {
                         {hkuSpeakers.map((speaker, index) => (
                             <div key={index} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
                                 <div className="flex flex-col items-center">
-                                    <img 
-                                        src={speaker.profilePic} 
-                                        alt={speaker.name}
-                                        className="w-48 h-48 object-contain rounded-full bg-white mb-4"
-                                    />
+                                    <div className="w-35 h-48 mb-4 rounded-full overflow-hidden bg-white border border-gray-200">
+                                        <img 
+                                            src={speaker.profilePic} 
+                                            alt={speaker.name}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
                                     <h4 className="font-semibold text-lg mb-2 text-center">{speaker.name}</h4>
                                     <p className="text-blue-600 font-medium mb-3 text-sm text-center">{speaker.affiliation}</p>
                                     <p className="text-gray-700 text-xs mb-3 leading-relaxed text-left">{speaker.bio}</p>
