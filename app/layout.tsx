@@ -15,6 +15,15 @@ export const metadata: Metadata = {
         template: '%s | HKU Complex Networks Lab',
     },
     description: 'Research group focused on complex networks at The University of Hong Kong.',
+    icons: {
+        icon: [
+            {
+                url: '/favicon.ico',
+                sizes: 'any',
+            },
+        ],
+        shortcut: '/favicon.ico',
+    },
     openGraph: {
         title: 'HKU Complex Networks Lab',
         description: 'Research group focused on complex networks at The University of Hong Kong.',

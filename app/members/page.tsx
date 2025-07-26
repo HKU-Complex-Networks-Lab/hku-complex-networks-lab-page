@@ -41,9 +41,10 @@ export default function MembersPage() {
             <MemberCard 
                 name="Baiyue He"
                 position="PhD Student"
-                interests={["TBD"]}
+                interests={["Network Science", "Spatiotemporal Analysis"]}
                 photo="/images/members/baiyue-he.jpg"
                 links={[
+                    {type: "scholar", url: "https://orcid.org/0009-0007-9787-9726"},
                     {type: "github", url: "https://github.com/baiyueh"}
                 ]}
             />
