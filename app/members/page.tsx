@@ -88,12 +88,11 @@ export default function MembersPage() {
             <MemberCard 
                 name="Jianrui Wu"
                 position="MPhil Student"
-                interests={["TBD"]}
-                photo="/images/members/jianrui-wu.jpg"
+                interests={["ML methods for network science"]}
+                photo="/images/members/jianrui-wu.webp"
                 links={[
-                    {type: "personal", url: ""},
-                    {type: "scholar", url: ""},
-                    {type: "github", url: ""}
+                    {type: "personal", url: "https://jer-ry.github.io"},
+                    {type: "github", url: "https://github.com/JER-ry"}
                 ]}
             />
             
