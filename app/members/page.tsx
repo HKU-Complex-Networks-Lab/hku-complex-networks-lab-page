@@ -16,7 +16,7 @@ export default function MembersPage() {
                 name="Prof. Alec Kirkley"
                 position="Assistant Professor, HKU Institute of Data Science and Department of Urban Planning & Design"
                 interests={["Network Science", "Statistical Physics", "Complex Systems", "Statistical Inference", "Urban Science"]}
-                photo="/images/alec-kirkley.jpg"
+                photo="/images/members/alec-kirkley.jpg"
                 links={[
                     {type: "personal", url: "https://aleckirkley.com/"},
                     {type: "scholar", url: "https://scholar.google.com/citations?hl=en&user=42b-2NcAAAAJ"},
@@ -42,7 +42,7 @@ export default function MembersPage() {
                 name="Baiyue He"
                 position="PhD Student"
                 interests={["TBD"]}
-                photo="/images/baiyue-he.jpg"
+                photo="/images/members/baiyue-he.jpg"
                 links={[
                     {type: "github", url: "https://github.com/baiyueh"}
                 ]}
@@ -52,7 +52,7 @@ export default function MembersPage() {
                 name="Ya Wen"
                 position="PhD Candidate"
                 interests={["TBD"]}
-                photo="/images/ya-wen.jpg"
+                photo="/images/members/ya-wen.jpg"
                 links={[
                     {type: "personal", url: ""},
                     {type: "scholar", url: ""},
@@ -64,7 +64,7 @@ export default function MembersPage() {
                 name="Jiayu Weng"
                 position="PhD Student"
                 interests={["TBD"]}
-                photo="/images/jiayu-weng.jpg"
+                photo="/images/members/jiayu-weng.jpg"
                 links={[
                     {type: "personal", url: ""},
                     {type: "scholar", url: ""},
@@ -76,7 +76,7 @@ export default function MembersPage() {
                 name="Yanting Zhang"
                 position="PhD Student"
                 interests={["TBD"]}
-                photo="/images/yanting-zhang.jpg"
+                photo="/images/members/yanting-zhang.jpg"
                 links={[
                     {type: "personal", url: ""},
                     {type: "scholar", url: ""},
@@ -89,7 +89,7 @@ export default function MembersPage() {
                 name="Jianrui Wu"
                 position="MPhil Student"
                 interests={["TBD"]}
-                photo="/images/jianrui-wu.jpg"
+                photo="/images/members/jianrui-wu.jpg"
                 links={[
                     {type: "personal", url: ""},
                     {type: "scholar", url: ""},
@@ -102,7 +102,7 @@ export default function MembersPage() {
                 name="Sebastian Morel-Balbi"
                 position="Postdoctoral Fellow"
                 interests={["Statistical Physics","Complex Systems","Network Science"]}
-                photo="/images/sebastian-morel.jpg"
+                photo="/images/members/sebastian-morel.jpg"
                 links={[
                     {type: "personal", url: ""},
                     {type: "scholar", url: ""},
