@@ -41,7 +41,7 @@ export default function PublicationsPage() {
     
     return (
         <section>
-            <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Publications</h1>
+            <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Publications from junior members of the lab</h1>
             
             <div className="mt-6">
                 {publications.map((pub, i) => (
