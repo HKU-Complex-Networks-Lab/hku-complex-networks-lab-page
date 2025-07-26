@@ -3,7 +3,7 @@ import { MemberCard } from '../components/member-card'
 
 export const metadata = {
     title: 'Lab Members',
-    description: 'Meet the team at HKU Complex Networks Lab.',
+    description: 'Meet the HKU Complex Networks Lab team.',
 }
 
 export default function MembersPage() {
