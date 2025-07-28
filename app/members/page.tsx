@@ -64,12 +64,11 @@ export default function MembersPage() {
             <MemberCard 
                 name="Jiayu Weng"
                 position="PhD Student"
-                interests={["TBD"]}
+                interests={["Network Science", "Neural Network", "Complex Systems"]}
                 photo="/images/members/jiayu-weng.jpg"
                 links={[
-                    {type: "personal", url: ""},
-                    {type: "scholar", url: ""},
-                    {type: "github", url: ""}
+                    {type: "scholar", url: "https://scholar.google.com/citations?user=KZGlHNIAAAAJ&hl=en"},
+                    {type: "github", url: "https://github.com/yukiweng62"}
                 ]}
             />
 
