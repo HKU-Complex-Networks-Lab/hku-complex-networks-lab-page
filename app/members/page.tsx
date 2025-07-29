@@ -28,12 +28,12 @@ export default function MembersPage() {
             <MemberCard 
                 name="Dr. Seongmin Kim"
                 position="Postdoctoral Fellow"
-                interests={["TBD"]}
+                interests={["Statistical Physics", "Network Science", "Complex Systems", "Granular Materials"]}
                 photo="/images/seongmin-kim.jpg"
                 links={[
-                    {type: "personal", url: ""},
-                    {type: "scholar", url: ""},
-                    {type: "github", url: ""}
+                    {type: "personal", url: "https://seongmingranular.wordpress.com"},
+                    {type: "scholar", url: "https://scholar.google.com/citations?user=BZjZQ4QAAAAJ&hl=ko&oi=sra"},
+                    {type: "github", url: "https://github.com/seongmin-kim-1"}
                 ]}
             />
             
