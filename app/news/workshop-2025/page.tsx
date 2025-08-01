@@ -61,7 +61,7 @@ export default function Workshop2025Page() {
             name: "Hao Liao",
             affiliation: "Shenzhen University",
             email: "liaohao@szdx.wecom.work",
-            bio: "Hao Liao, is an Associate Professor and Ph.D. supervisor. He received his Ph.D. in Philosophy from the University of Fribourg, Switzerland, in May 2015, following a Master’s degree from the University of Science and Technology of China. His primary research interests lie in social computing and complex systems, with a particular focus on large model applications (including LLM-based agents and recommendation systems), anomaly detection in social networks (e.g., misinformation and fake news), and the fundamental theory and applications of complex networks.",
+            bio: "Dr. Hao Liao is a tenured associate professor at Shenzhen University since 2015, holds a Ph.D. in Theoretical Physics from the University of Fribourg, Switzerland (2015). His research investigates the intersection of information mining and complex systems, with a focus on information dissemination, large language models, and explainable recommendation systems. Leading multiple projects funded by the National Natural Science Foundation of China, Guangdong Provincial Funds, and Shenzhen Basic Research Programs, he has secured over 40 national invention patents.",
             profilePic: "/images/speakers/hao-liao.jpg"
         },
         {
@@ -143,7 +143,8 @@ export default function Workshop2025Page() {
             time: "09:35 – 10:35",
             session: "Keynote 1",
             speaker: "Guanrong Chen",
-            affiliation: "City University of Hong Kong"
+            affiliation: "City University of Hong Kong",
+            title: "Optimal synchronization of higher-order complex networks​"
         },
         {
             time: "10:35 – 10:50",
@@ -155,7 +156,8 @@ export default function Workshop2025Page() {
             time: "10:50 – 11:20",
             session: "Invited talk 1",
             speaker: "Jean-Gabriel Young",
-            affiliation: "University of Vermont"
+            affiliation: "University of Vermont",
+            title: "Independent cascades in clustered graphs"
         },
         {
             time: "11:20 – 11:50",
@@ -173,13 +175,15 @@ export default function Workshop2025Page() {
             time: "13:20 – 13:50",
             session: "Invited talk 3",
             speaker: "Hao Liao",
-            affiliation: "Shenzhen University"
+            affiliation: "Shenzhen University",
+            title: "Strategic Influence Maximization from Network Science perspective"
         },
         {
             time: "13:50 – 14:20",
             session: "Invited talk 4",
             speaker: "Lin Wang",
-            affiliation: "Shanghai Jiao Tong University"
+            affiliation: "Shanghai Jiao Tong University",
+            title: "Controllability of Large-Scale Networked Systems​"
         },
         {
             time: "14:20 – 14:35",
@@ -191,13 +195,15 @@ export default function Workshop2025Page() {
             time: "14:35 – 15:05",
             session: "Invited talk 5",
             speaker: "Xiang Li",
-            affiliation: "Fudan University"
+            affiliation: "Fudan University",
+            title: "TBA"
         },
         {
             time: "15:05 – 15:35",
             session: "Invited talk 6",
             speaker: "Kwang-Il Goh",
-            affiliation: "Korea University"
+            affiliation: "Korea University",
+            title: "Statistical physics on random hypergraphs​"
         },
         {
             time: "15:35 onwards",
@@ -218,7 +224,8 @@ export default function Workshop2025Page() {
             time: "09:35 – 10:35",
             session: "Keynote 2",
             speaker: "Tiago Peixoto",
-            affiliation: "IT:U Austria"
+            affiliation: "IT:U Austria",
+            title: "Reconstructing complex networks from dynamics and behavior"
         },
         {
             time: "10:35 – 10:50",
@@ -230,13 +237,15 @@ export default function Workshop2025Page() {
             time: "10:50 – 11:20",
             session: "Invited talk 7",
             speaker: "George Cantwell",
-            affiliation: "University of Cambridge"
+            affiliation: "University of Cambridge",
+            title: "TBA"
         },
         {
             time: "11:20 – 11:50",
             session: "Invited talk 8",
             speaker: "Yi Zhao",
-            affiliation: "Harbin Institute of Technology (Shenzhen)"
+            affiliation: "Harbin Institute of Technology (Shenzhen)",
+            title: "Study on higher-order propagation behaviors in networks based on simplicial complexes"
         },
         {
             time: "11:50 – 13:20",
@@ -248,13 +257,15 @@ export default function Workshop2025Page() {
             time: "13:20 – 13:50",
             session: "Invited talk 9",
             speaker: "Gangmin Son",
-            affiliation: "Korea Institute for Advanced Study"
+            affiliation: "Korea Institute for Advanced Study",
+            title: "Phase Transitions in the Simplicial Ising Model on Hypergraphs​"
         },
         {
             time: "13:50 – 14:20",
             session: "Invited talk 10",
             speaker: "Alec Kirkley",
-            affiliation: "University of Hong Kong"
+            affiliation: "University of Hong Kong",
+            title: "TBA"
         },
         {
             time: "14:20 – 14:35",
@@ -266,13 +277,15 @@ export default function Workshop2025Page() {
             time: "14:35 – 15:05",
             session: "Invited talk 11",
             speaker: "Shihui Feng",
-            affiliation: "University of Hong Kong"
+            affiliation: "University of Hong Kong",
+            title: "TBA"
         },
         {
             time: "15:05 – 15:35",
             session: "Invited talk 12",
             speaker: "Guodong Li",
-            affiliation: "University of Hong Kong"
+            affiliation: "University of Hong Kong",
+            title: "TBA"
         },
         {
             time: "15:35 onwards",
@@ -438,27 +451,30 @@ export default function Workshop2025Page() {
                 
                 <div className="grid lg:grid-cols-2 gap-8">
                     {/* Day 1 */}
-                    <div>
+                    <div className="flex flex-col">
                         <h3 className="font-semibold text-xl mb-4 tracking-tighter">Day 1 - August 28, 2025</h3>
-                        <div className="overflow-x-auto">
-                            <table className="w-full border border-gray-200 rounded-lg">
+                        <div className="overflow-x-auto flex-1">
+                            <table className="w-full border border-gray-200 rounded-lg h-full">
                                 <thead className="bg-gray-50">
                                     <tr>
                                         <th className="px-3 py-3 text-left font-semibold text-sm">Time</th>
-                                        <th className="px-3 py-3 text-left font-semibold text-sm">Session / Speaker / Affiliation</th>
+                                        <th className="px-3 py-3 text-left font-semibold text-sm">Session / Speaker / Affiliation / Title</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {day1Schedule.map((item, index) => (
-                                        <tr key={index} className="border-t border-gray-200">
-                                            <td className="px-3 py-3 font-mono text-sm align-top">{item.time}</td>
-                                            <td className="px-3 py-3 text-sm">
+                                        <tr key={index} className="border-t border-gray-200 min-h-[80px]">
+                                            <td className="px-3 py-3 font-mono text-sm align-top h-20">{item.time}</td>
+                                            <td className="px-3 py-3 text-sm h-20">
                                                 <div className="mb-1 font-medium">{item.session}</div>
                                                 {item.speaker && item.speaker !== "—" && (
                                                     <div className="text-gray-700">{item.speaker}</div>
                                                 )}
                                                 {item.affiliation && item.affiliation !== "—" && (
                                                     <div className="text-gray-600 text-xs">{item.affiliation}</div>
+                                                )}
+                                                {item.title && (
+                                                    <div className="text-gray-600 italic mt-2">{item.title}</div>
                                                 )}
                                             </td>
                                         </tr>
@@ -469,27 +485,30 @@ export default function Workshop2025Page() {
                     </div>
 
                     {/* Day 2 */}
-                    <div>
+                    <div className="flex flex-col">
                         <h3 className="font-semibold text-xl mb-4 tracking-tighter">Day 2 - August 29, 2025</h3>
-                        <div className="overflow-x-auto">
-                            <table className="w-full border border-gray-200 rounded-lg">
+                        <div className="overflow-x-auto flex-1">
+                            <table className="w-full border border-gray-200 rounded-lg h-full">
                                 <thead className="bg-gray-50">
                                     <tr>
                                         <th className="px-3 py-3 text-left font-semibold text-sm">Time</th>
-                                        <th className="px-3 py-3 text-left font-semibold text-sm">Session / Speaker / Affiliation</th>
+                                        <th className="px-3 py-3 text-left font-semibold text-sm">Session / Speaker / Affiliation / Title</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {day2Schedule.map((item, index) => (
-                                        <tr key={index} className="border-t border-gray-200">
-                                            <td className="px-3 py-3 font-mono text-sm align-top">{item.time}</td>
-                                            <td className="px-3 py-3 text-sm">
+                                        <tr key={index} className="border-t border-gray-200 min-h-[80px]">
+                                            <td className="px-3 py-3 font-mono text-sm align-top h-20">{item.time}</td>
+                                            <td className="px-3 py-3 text-sm h-20">
                                                 <div className="mb-1 font-medium">{item.session}</div>
                                                 {item.speaker && item.speaker !== "—" && (
                                                     <div className="text-gray-700">{item.speaker}</div>
                                                 )}
                                                 {item.affiliation && item.affiliation !== "—" && (
                                                     <div className="text-gray-600 text-xs">{item.affiliation}</div>
+                                                )}
+                                                {item.title && (
+                                                    <div className="text-gray-600 italic mt-2">{item.title}</div>
                                                 )}
                                             </td>
                                         </tr>
