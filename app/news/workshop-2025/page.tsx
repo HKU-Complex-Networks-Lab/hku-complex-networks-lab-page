@@ -98,6 +98,13 @@ export default function Workshop2025Page() {
             email: "gmson102@gmail.com",
             bio: "Gangmin Son is a Research Fellow at the Korea Institute for Advanced Study (KIAS). He received his PhD in Physics from KAIST in 2024. During his PhD, he studied the statistical physics of networks and its real-world applications. His current research focuses mainly on generalized networks, such as multiplex networks and hypergraphs, and how their structural properties influence collective phenomena, including phase transitions.",
             profilePic: "/images/speakers/gangmin-son.png"
+        },
+        {
+            name: "Wenwu Yu",
+            affiliation: "Southeast University",
+            email: "wwyu@seu.edu.cn",
+            bio: "Wenwu Yu received the B.Sc. degree in information and computing science and M.Sc. degree in applied mathematics from the Department of Mathematics, Southeast University, Nanjing, China, in 2004 and 2007, respectively, and the Ph.D. degree from the Department of Electronic Engineering, City University of Hong Kong, Hong Kong, China, in 2010. Currently, he is the Dean in the School of Mathematics. He is also a Full Professor with the Endowed Chair Honor in Southeast University, China. His research interests include multi-agent systems, complex networks and systems, disturbance control, distributed optimization, machine learning, game theory, cyberspace security, smart grids, intelligent transportation systems, big-data analysis, etc.",
+            profilePic: "/images/speakers/wenwu-yu.jpg"
         }
     ]
 
@@ -106,7 +113,7 @@ export default function Workshop2025Page() {
             name: "Qingpeng Zhang",
             affiliation: "University of Hong Kong",
             email: "qpzhang@hku.hk",
-            bio: "Professor Qingpeng Zhang is an Associate Professor in the Musketeers Foundation Institute of Data Science and the Department of Pharmacology and Pharmacy at HKU. He received the B.S. degree in Automation from Huazhong University of Science and Technology in 2009, and the M.S. and the Ph.D. degrees in Systems and Industrial Engineering (minor in Management Information Systems) from the University of Arizona, in 2011 and 2012, respectively. Prior to joining HKU in 08/2023, he was an Associate Professor with the School of Data Science at The City University of Hong Kong (CityU). He previously worked as a Postdoctoral Research Associate in the Tetherless World Constellation, Department of Computer Science at Rensselaer Polytechnic Institute.",
+            bio: "Qingpeng Zhang is an Associate Professor in the Musketeers Foundation Institute of Data Science and the Department of Pharmacology and Pharmacy at HKU. He received the B.S. degree in Automation from Huazhong University of Science and Technology in 2009, and the Ph.D. degree in Systems and Industrial Engineering (minor in Management Information Systems) from the University of Arizona in 2012. Prior to joining HKU in 08/2023, he was an Associate Professor with the School of Data Science at The City University of Hong Kong (CityU). He previously worked as a Postdoctoral Research Associate in the Tetherless World Constellation, Department of Computer Science at Rensselaer Polytechnic Institute.",
             profilePic: "/images/speakers/qingpeng-zhang.jpg"
         },
         {
@@ -134,8 +141,14 @@ export default function Workshop2025Page() {
 
     const day1Schedule: ScheduleItem[] = [
         {
+            time: "08:45 – 09:30",
+            session: "Registration",
+            speaker: "—",
+            affiliation: "—"
+        },
+        {
             time: "09:30 – 09:35",
-            session: "Opening remarks & logistics",
+            session: "Opening remarks by Prof Yi Ma",
             speaker: "—",
             affiliation: "—"
         },
@@ -163,7 +176,8 @@ export default function Workshop2025Page() {
             time: "11:20 – 11:50",
             session: "Invited talk 2",
             speaker: "Qingpeng Zhang",
-            affiliation: "University of Hong Kong"
+            affiliation: "University of Hong Kong",
+            title: "Data organization limits the predictability of binary classification"
         },
         {
             time: "11:50 – 13:20",
@@ -263,9 +277,9 @@ export default function Workshop2025Page() {
         {
             time: "13:50 – 14:20",
             session: "Invited talk 10",
-            speaker: "Alec Kirkley",
-            affiliation: "University of Hong Kong",
-            title: "TBA"
+            speaker: "Wenwu Yu",
+            affiliation: "Southeast University",
+            title: "Theories and Applications of Distributed Optimization in Networks"
         },
         {
             time: "14:20 – 14:35",
