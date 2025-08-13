@@ -120,7 +120,7 @@ export default function Workshop2025Page() {
             name: "Shihui Feng",
             affiliation: "University of Hong Kong",
             email: "shihuife@hku.hk",
-            bio: "Shihui Feng is an Assistant Professor and the Programme Director of Bachelor of Arts and Sciences in Social Data Science at the Faculty of Education, the University of Hong Kong. Her research focuses on learning analytics and complex networks.",
+            bio: "Dr. Shihui Feng is an Assistant Professor in the Faculty of Education at The University of Hong Kong. Specializing in complex networks and learning analytics, her research focuses on developing new analytical methods and advancing theoretical frameworks to investigate collaborative learning dynamics and social interactions in digital environments.",
             profilePic: "/images/speakers/shihui-feng.jpg"
         },
         {
@@ -292,7 +292,7 @@ export default function Workshop2025Page() {
             session: "Invited talk 11",
             speaker: "Shihui Feng",
             affiliation: "University of Hong Kong",
-            title: "TBA"
+            title: "Nodes and Edges in Education: A Network Science Approach to Educational Research"
         },
         {
             time: "15:05 – 15:35",
