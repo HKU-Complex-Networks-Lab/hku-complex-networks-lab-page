@@ -52,12 +52,11 @@ export default function MembersPage() {
             <MemberCard 
                 name="Ya Wen"
                 position="PhD Candidate"
-                interests={["TBD"]}
+                interests={["Urban Science", "Geospatial AI"]}
                 photo="/images/members/ya-wen.jpg"
                 links={[
-                    {type: "personal", url: ""},
                     {type: "scholar", url: ""},
-                    {type: "github", url: ""}
+                    {type: "github", url: "https://github.com/wy062111"}
                 ]}
             />
 
