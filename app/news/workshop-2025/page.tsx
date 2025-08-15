@@ -220,16 +220,16 @@ export default function Workshop2025Page() {
             title: "Statistical physics on random hypergraphs​"
         },
         {
-            time: "15:35 - 17:00",
-            session: "Panel discussion \"Going beyond AI: Why data science needs complex systems and network science\"",
-            speaker: "Guanrong Chen, Tiago Peixoto, Kwang-Il Goh, Xiang Li, George Cantwell",
-            affiliation: "—"
-        },
-        {
-            time: "17:00 - 17:30",
+            time: "15:35 - 16:05",
             session: "Lab spotlight: Recent research from the HKU Complex Networks Lab",
             speaker: "Alec Kirkley",
             affiliation: "University of Hong Kong"
+        },
+        {
+            time: "16:05 onwards",
+            session: "Panel discussion \"Going beyond AI: Why data science needs complex systems and network science\"",
+            speaker: "Guanrong Chen, Tiago Peixoto, Kwang-Il Goh, Xiang Li, George Cantwell",
+            affiliation: "—"
         }
     ]
 
@@ -308,7 +308,7 @@ export default function Workshop2025Page() {
             title: "TBA"
         },
         {
-            time: "15:35 - 17:00",
+            time: "15:35 onwards",
             session: "Panel discussion \"Emerging opportunities for interdisciplinary applications of network science\"",
             speaker: "Qingpeng Zhang, Jean-Gabriel Young, Lin Wang, Shihui Feng",
             affiliation: "—"
@@ -351,8 +351,8 @@ export default function Workshop2025Page() {
                         <div>
                             <h3 className="font-semibold text-lg mb-2">Date</h3>
                             <p className="text-gray-700">August 28-29, 2025</p>
-                            <p className="text-gray-700">9:30 AM - 4:00 PM (Day 1)</p>
-                            <p className="text-gray-700">9:30 AM - 4:00 PM (Day 2)</p>
+                            <p className="text-gray-700">9:30 AM - 5:00 PM (Day 1)</p>
+                            <p className="text-gray-700">9:30 AM - 5:00 PM (Day 2)</p>
                         </div>
                         <div>
                             <h3 className="font-semibold text-lg mb-2">Venue</h3>
