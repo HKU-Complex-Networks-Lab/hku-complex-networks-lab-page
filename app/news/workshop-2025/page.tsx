@@ -220,10 +220,16 @@ export default function Workshop2025Page() {
             title: "Statistical physics on random hypergraphs​"
         },
         {
-            time: "15:35 onwards",
+            time: "15:35 - 17:00",
             session: "Panel discussion \"Going beyond AI: Why data science needs complex systems and network science\"",
             speaker: "Guanrong Chen, Tiago Peixoto, Kwang-Il Goh, Xiang Li, George Cantwell",
             affiliation: "—"
+        },
+        {
+            time: "17:00 - 17:30",
+            session: "Lab spotlight: Recent research from the HKU Complex Networks Lab",
+            speaker: "Alec Kirkley",
+            affiliation: "University of Hong Kong"
         }
     ]
 
@@ -302,7 +308,7 @@ export default function Workshop2025Page() {
             title: "TBA"
         },
         {
-            time: "15:35 onwards",
+            time: "15:35 - 17:00",
             session: "Panel discussion \"Emerging opportunities for interdisciplinary applications of network science\"",
             speaker: "Qingpeng Zhang, Jean-Gabriel Young, Lin Wang, Shihui Feng",
             affiliation: "—"
