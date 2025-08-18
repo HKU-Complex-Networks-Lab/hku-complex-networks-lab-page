@@ -82,6 +82,17 @@ export default function MembersPage() {
                     {type: "github", url: ""}
                 ]}
             />
+            
+            <MemberCard 
+                name="Yingbang Zang"
+                position="PhD Student"
+                interests={["Network Science", "Network Inference", "Complex Systems & AI"]}
+                photo="/images/members/yingbang-zang.jpg"
+                links={[
+                    {type: "scholar", url: "https://scholar.google.com/citations?hl=zh-CN&user=y0FjOMsAAAAJ"},
+                    {type: "github", url: "https://github.com/zangyingbang"}
+                ]}
+            />
 
             <h2 className="text-xl font-medium mb-6 mt-12">Master's Students</h2>
             <MemberCard 
