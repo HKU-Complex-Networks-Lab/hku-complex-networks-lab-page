@@ -75,7 +75,7 @@ export default function Workshop2025Page() {
             name: "Xiang Li",
             affiliation: "Fudan University",
             email: "lix@fudan.edu.cn",
-            bio: "Professor Li serves as the Chair of the Technical Committee on Complex Networks and Complex Systems under the China Society for Industrial and Applied Mathematics, Vice Chair of the Network Science and Engineering Committee under the Chinese Institute of Command and Control, and a Committee Member of the Control Theory Committee under the Chinese Association of Automation. He is also Vice President of the Shanghai Nonlinear Science Society.",
+            bio: "Xiang Li is a Distinguished Professor with the Research Institute of Intelligent Complex Systems, Fudan University, Shanghai, China. He chairs the CSIAM Complex networks and Complex systems Technical Committee, and served/serves as an Associate Editor (2018–2021), an Area Editor (2022–2024), and an Editor-at-large (since 2025) of IEEE TRANSACTIONS ON NETWORK SCIENCE AND ENGINEERING. His main research interests include network science and intelligent systems in both theory and applications.",
             profilePic: "/images/speakers/xiang-li.jpg"
         },
         {
@@ -210,7 +210,7 @@ export default function Workshop2025Page() {
             session: "Invited talk 5",
             speaker: "Xiang Li",
             affiliation: "Fudan University",
-            title: "TBA"
+            title: "On Sync and Chimera of Higher-order Networks and Beyond"
         },
         {
             time: "15:05 – 15:35",
@@ -221,9 +221,10 @@ export default function Workshop2025Page() {
         },
         {
             time: "15:35 - 16:05",
-            session: "Lab spotlight: Recent research from the HKU Complex Networks Lab",
+            session: "Lab spotlight",
             speaker: "Alec Kirkley",
-            affiliation: "University of Hong Kong"
+            affiliation: "University of Hong Kong",
+            title: "Recent research from the HKU Complex Networks Lab"
         },
         {
             time: "16:05 onwards",
