@@ -42,6 +42,10 @@ export default function PublicationsPage() {
     return (
         <section>
             <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Research publications from lab members</h1>
+
+            <p className="mt-8">
+                See <a href="https://scholar.google.com/citations?user=42b-2NcAAAAJ&hl=en" className="text-blue-600 hover:text-blue-800 underline">here</a> for Alec's papers.
+            </p>
             
             <div className="mt-6">
                 {publications.map((pub, i) => (
@@ -55,6 +59,7 @@ export default function PublicationsPage() {
                     />
                 ))}
             </div>
+            
         </section>
     )
 }
