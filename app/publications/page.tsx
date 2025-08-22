@@ -2,8 +2,8 @@
 import { PublicationCard } from '../components/publication-card'
 
 export const metadata = {
-    title: 'Research publications from junior members of the HKU Complex Networks Lab',
-    description: 'Research publications from junior members of the HKU Complex Networks Lab.',
+    title: 'Research publications from members of the HKU Complex Networks Lab',
+    description: 'Research publications from members of the HKU Complex Networks Lab.',
 }
 
 export default function PublicationsPage() {
