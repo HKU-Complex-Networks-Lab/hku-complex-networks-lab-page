@@ -3,7 +3,7 @@ import { PublicationCard } from '../components/publication-card'
 
 export const metadata = {
     title: 'Research publications from lab members',
-    description: 'Research publications from lab members. See <a href="https://scholar.google.com/citations?user=42b-2NcAAAAJ&hl=en">here</a> for Alec's papers.',
+    description: 'Research publications from lab members',
 }
 
 export default function PublicationsPage() {
