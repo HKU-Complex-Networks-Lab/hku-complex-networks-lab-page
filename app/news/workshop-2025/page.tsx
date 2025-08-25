@@ -54,7 +54,7 @@ export default function Workshop2025Page() {
             name: "George Cantwell",
             affiliation: "University of Cambridge",
             email: "gtc31@cam.ac.uk",
-            bio: "George Cantwell is an Assistant Professor of Innovative Computational Methods at the University of Cambridge. He received a PhD in Physics from the University of Michigan and then completed a postdoctoral fellowship at the Santa Fe Institute. A physicist by training, He now researches in the areas of network science, complex systems, and statistical inference.",
+            bio: "Dr George Cantwell was trained as a physicist and is now Assistant Professor of Innovative Computational Methods at the University of Cambridge. He is interested in stochastic processes and inference, particularly when these involve non-trivial structure, i.e., complex networks.",
             profilePic: "/images/speakers/george-cantwell.jpg"
         },
         {
@@ -230,7 +230,7 @@ export default function Workshop2025Page() {
             time: "16:05 onwards",
             session: "Panel discussion \"Going beyond AI: Why data science needs complex systems and network science\"",
             speaker: "Guanrong Chen, Tiago Peixoto, Kwang-Il Goh, Xiang Li, George Cantwell",
-            affiliation: "—"
+            affiliation: "—",
         }
     ]
 
@@ -259,7 +259,7 @@ export default function Workshop2025Page() {
             session: "Invited talk 7",
             speaker: "George Cantwell",
             affiliation: "University of Cambridge",
-            title: "TBA"
+            title: "Ranking and comparison"
         },
         {
             time: "11:20 – 11:50",
